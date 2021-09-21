@@ -1,1 +1,1 @@
-# igti-bootcamp-frontend
+# IGTI - Bootcamp Front-End
