@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <h1>Super Calculadora</h1>
+
+    <div class="container">
+      <label for="inputA"
+        >Primeiro número (A):
+        <input type="number" name="inputA" id="inputA" />
+      </label>
+      <label for="inputB"
+        >Segundo número (B):
+        <input type="number" name="inputB" id="inputB" />
+      </label>
+    </div>
+
+    <h2>Cálculos</h2>
+
+    <div class="calc-total">
+      <label for="sum"
+        >Soma (a+b):
+        <input type="text" name="sum" id="sum" class="number" readonly />
+      </label>
+      <label for="subtractOne"
+        >Subtração 1 (a - b):
+        <input
+          type="text"
+          name="subtractOne"
+          id="subtractOne"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="subtractTwo"
+        >Subtração 2 (b - a):
+        <input
+          type="text"
+          name="subtractTwo"
+          id="subtractTwo"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="multiply"
+        >Multiplicação (a x b):
+        <input
+          type="text"
+          name="multiply"
+          id="multiply"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="divisionOne"
+        >Divisão 1 (a ÷ b):
+        <input
+          type="text"
+          name="divisionOne"
+          id="divisionOne"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="divisionTwo"
+        >Divisão 2 (b ÷ a):
+        <input
+          type="text"
+          name="divisionTwo"
+          id="divisionTwo"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="squareOne"
+        >Quadrado de a (a²):
+        <input
+          type="text"
+          name="squareOne"
+          id="squareOne"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="squareTwo"
+        >Quadrado de b (b²):
+        <input
+          type="text"
+          name="squareTwo"
+          id="squareTwo"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="divisorsOne"
+        >Divisores inteiros de a:
+        <input
+          type="text"
+          name="divisorsOne"
+          id="divisorsOne"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="divisorsTwo"
+        >Divisores inteiros de b:
+        <input
+          type="text"
+          name="divisorsTwo"
+          id="divisorsTwo"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="factorialOne"
+        >Fatorial de a (a!):
+        <input
+          type="text"
+          name="factorialOne"
+          id="factorialOne"
+          class="number"
+          readonly
+        />
+      </label>
+      <label for="factorialTwo"
+        >Fatorial de b (b!):
+        <input
+          type="text"
+          name="factorialTwo"
+          id="factorialTwo"
+          class="number"
+          readonly
+        />
+      </label>
+    </div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
