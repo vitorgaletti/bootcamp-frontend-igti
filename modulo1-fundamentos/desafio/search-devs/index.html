@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Search-Devs</title>
+  </head>
+  <body>
+    <header>
+      <h1>Search-Devs</h1>
+    </header>
+    <div class="container">
+      <div class="input-field">
+        <input type="text" id="inputName" placeholder="Pesquisa por nome:" />
+      </div>
+      <div class="input-options">
+        <label class="option">
+          <input id="checkboxJava" type="checkbox" checked />
+          <span>Java</span>
+        </label>
+
+        <label class="option">
+          <input id="checkboxJavaScript" type="checkbox" checked />
+          <span>JavaScript</span>
+        </label>
+
+        <label class="option">
+          <input id="checkboxPython" type="checkbox" checked />
+          <span>Python</span>
+        </label>
+
+        <div class="radio">
+          <label class="option">
+            <input id="radioAnd" name="radioGroup" type="radio" />
+            <span>E</span>
+          </label>
+
+          <label class="option">
+            <input id="radioOr" name="radioGroup" type="radio" checked />
+            <span>OU</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="divDevelopers"></div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

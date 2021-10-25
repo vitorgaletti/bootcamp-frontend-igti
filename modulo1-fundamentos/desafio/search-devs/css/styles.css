@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.input-options {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  gap: 20px;
+}
+
+.input-options label {
+  font-weight: 600;
+}
+
+.img-programming {
+  width: 5rem;
+  height: 3.75rem;
+  border-radius: 50%;
+}
+
+#divDevelopers h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.developer-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.developer-card {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 4px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.data {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.programming-language {
+  font-size: 0.8rem;
+}
+
+.language {
+  width: 3.75rem;
+  height: 1.87rem;
+  margin: 0 auto;
+  text-align: center;
+}
